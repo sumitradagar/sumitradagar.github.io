@@ -1,0 +1,84 @@
+:root{
+	font-size: 16px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.firstButton{
+	display: flex;
+	justify-content: space-between;
+	width: 25vw;
+}
+.button1{
+	justify-content: flex-start;
+	margin: 5vw ;
+	border: 2px solid blue;
+	width: 25vw;
+	padding: 0;
+	background:deepSkyBlue;
+
+}
+
+.container{
+	margin: 5vh;
+    display: flex;
+	align-items: top;
+	flex-direction: column;
+	background: lightblue; 
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px rgba(0,0,0,0.17);
+}
+header{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 100%;
+}
+
+.heading{
+ 	margin-bottom: 5vh;
+	background:white;
+
+}
+ .closeBtn{
+ 	display: inline-flex;
+ 	justify-content: flex-end;
+	
+}
+.closeBtn:hover,.closeBtn:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+
+}
+p::first-letter {
+font-weight: 800;
+font-size: 20pt;
+}
+
+
+.paragraph {
+  margin: 5vw;
+  color: #2c2c2c;
+  font-family: "Roboto", sans-serif;
+  padding: 5vw;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.toClose{
+	background:black;
+	color: white;
+	border: 1px solid #afafaf;
+	}
+	.saveChanges{
+		background:blue;
+	color: white;
+	border: 1px solid #afafaf;
+
+	}
+
+

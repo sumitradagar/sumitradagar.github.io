@@ -1,0 +1,43 @@
+:root{
+	font-size: 16px;
+}
+h1{
+	color:brown;
+}
+body{
+	margin: 1em;
+	max-width: 75%;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	background: deepSkyBlue; 
+}
+p::first-letter {
+font-weight: 800;
+font-size: 20pt;
+}
+.accordion,
+.accordion dt,
+.accordion dd{
+	margin: 0;
+	padding: 0;
+}
+.accordion dt{
+	background : skyBlue;
+	border-bottom: 2px solid blue;
+border-radius: 7px 7px 0 0;
+color: brown;
+font-size: 1.5em;
+margin-top: 0.255em;
+padding: 0.5em 1em;
+}
+.accordion dd{
+	border: 2px solid deepSkyBlue;
+	border-top: none;
+	border-radius: 0 0 7px 7px;
+padding: 1em;
+}
+.big-font{
+	font-size: 1.5em;
+}
